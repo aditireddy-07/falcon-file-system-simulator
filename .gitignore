@@ -1,0 +1,36 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and coverage caches
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+logs/
+*.log
+
+# Temporary and backup files
+*.tmp
+*.bak
+*_backup.py
+
+# Keep the data directory, but ignore generated filesystem state
+data/*
+!data/.gitkeep
